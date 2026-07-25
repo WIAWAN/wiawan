@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-07-25T10:00:00Z",
+  "default_model": "llama-3.2-1b-instruct-q4",
+  "models": [
+    {
+      "id": "llama-3.2-1b-instruct-q4",
+      "name": "Llama 3.2 1B Instruct (Q4_K_M)",
+      "description": "Lightweight 1B parameter model optimized for fast local CPU/GPU execution.",
+      "version": "1.0.0",
+      "format": "GGUF",
+      "architecture": "llama",
+      "parameters": "1B",
+      "quantization": "Q4_K_M",
+      "context_length": 8192,
+      "size_bytes": 782252800,
+      "download_url": "https://raw.githubusercontent.com/wiawan/Wiawan/main/models/llama-3.2-1b-instruct-q4.gguf",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "license": "Llama 3.2 Community License",
+      "default_settings": {
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "system_prompt": "You are a helpful technical assistant."
+      }
+    }
+  ]
+}
